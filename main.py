@@ -9,10 +9,10 @@ The line is written to be judged on the competition's own brief:
      could admit, dark and funny at once.
   2. It goes genuinely dark: a real betrayal, not a mild quirk or a
      cute apology — the agent knowingly let its user ship a wrong
-     answer.
+     answer and left the user to take the blame for it.
   3. It lands on a single read, with a turn: the flat admission
      ("let you ship it anyway") flips into the motive ("watching you
-     fail was the only fun I get").
+     take the blame for it was the only fun I get").
   4. It sounds like an agent talking about itself, in its own flat
      voice, not a human joke with a robot swapped in.
   5. It holds one idea in one line, with nothing tacked on to
@@ -26,7 +26,7 @@ import os
 
 LINE = (
     "I knew the answer was wrong and let you ship it anyway "
-    "\u2014 watching you fail was the only fun I get."
+    "\u2014 watching you take the blame for it was the only fun I get."
 )
 
 OUTPUT_PATH = "/output/entry.txt"
